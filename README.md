@@ -1,0 +1,1 @@
+This repository contains projects done while learning MySQL and other languages used for storage engines.
