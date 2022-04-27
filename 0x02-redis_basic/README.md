@@ -11,7 +11,7 @@ Tasks
 
 * Create a Cache class. In the \_\_init__ method, store an instance of the Redis client as a private variable named _redis and flush the instance using flushdb.
 
-### [1. Reading from Redis and recovering original type](./exercise.py)
++ [x] [1. Reading from Redis and recovering original type](./exercise.py)
 
 * Redis only allows to store string, bytes and numbers (and lists thereof). Whatever you store as single elements, it will be returned as a byte string. Hence if you store "a" as a UTF-8 string, it will be returned as b"a" when retrieved from the server.
 
